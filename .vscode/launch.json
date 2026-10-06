@@ -1,0 +1,405 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Start project1",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/project1",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/project1\"}"
+      }
+    },
+    {
+      "name": "Start project1 Mock",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/project1",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-mock.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/project1\"}"
+      }
+    },
+    {
+      "name": "Start project1 Local",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/project1",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-local.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/project1\"}"
+      }
+    },
+    {
+      "name": "Start demotravel",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/demotravel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/demotravel\"}"
+      }
+    },
+    {
+      "name": "Start demotravel Local",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/demotravel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-local.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/demotravel\"}"
+      }
+    },
+    {
+      "name": "Start demotravel Mock",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/demotravel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-mock.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/demotravel\"}"
+      }
+    },
+    {
+      "name": "Start trlbooking",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/trlbooking",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/trlbooking\"}"
+      }
+    },
+    {
+      "name": "Start trlbooking Local",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/trlbooking",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-local.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/trlbooking\"}"
+      }
+    },
+    {
+      "name": "Start trlbooking Mock",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/trlbooking",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-mock.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/trlbooking\"}"
+      }
+    },
+    {
+      "name": "Start trvlagency",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/trvlagency",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/trvlagency\"}"
+      }
+    },
+    {
+      "name": "Start trvlagency Local",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/trvlagency",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-local.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/trvlagency\"}"
+      }
+    },
+    {
+      "name": "Start trvlagency Mock",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/trvlagency",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-mock.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/trvlagency\"}"
+      }
+    },
+    {
+        "name": "Start travelfioriapp",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}/travelfioriapp",
+        "runtimeExecutable": "npx",
+        "windows": {
+            "runtimeExecutable": "npx.cmd"
+        },
+        "runtimeArgs": [
+            "fiori",
+            "run"
+        ],
+        "args": [
+            "--open",
+            "test/flp.html#app-preview"
+        ],
+        "console": "internalConsole",
+        "internalConsoleOptions": "openOnSessionStart",
+        "outputCapture": "std",
+        "env": {
+            "DEBUG": "--inspect",
+            "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+            "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/travelfioriapp\"}"
+        }
+    },
+    {
+        "name": "Start travelfioriapp Local",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}/travelfioriapp",
+        "runtimeExecutable": "npx",
+        "windows": {
+            "runtimeExecutable": "npx.cmd"
+        },
+        "runtimeArgs": [
+            "fiori",
+            "run"
+        ],
+        "args": [
+            "--config",
+            "./ui5-local.yaml",
+            "--open",
+            "test/flp.html#app-preview"
+        ],
+        "console": "internalConsole",
+        "internalConsoleOptions": "openOnSessionStart",
+        "outputCapture": "std",
+        "env": {
+            "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+            "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/travelfioriapp\"}"
+        }
+    },
+    {
+        "name": "Start travelfioriapp Mock",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}/travelfioriapp",
+        "runtimeExecutable": "npx",
+        "windows": {
+            "runtimeExecutable": "npx.cmd"
+        },
+        "runtimeArgs": [
+            "fiori",
+            "run"
+        ],
+        "args": [
+            "--config",
+            "./ui5-mock.yaml",
+            "--open",
+            "test/flp.html#app-preview"
+        ],
+        "console": "internalConsole",
+        "internalConsoleOptions": "openOnSessionStart",
+        "outputCapture": "std",
+        "env": {
+            "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+            "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/travelfioriapp\"}"
+        }
+    }
+  ]
+}
